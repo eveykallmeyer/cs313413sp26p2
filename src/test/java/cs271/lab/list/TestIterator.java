@@ -99,7 +99,7 @@ public class TestIterator {
     // (defined as the sum of the items divided by the number of items)
     // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
     final Iterator<Integer> i = list.iterator();
-    while (i.hasnext()) {
+    while (i.hasNext()) {
       sum+= i.next();
       n++;
     }
